@@ -1,0 +1,17 @@
+You can either run the code the code on you machine using collabe following the below steps or simply going 
+to the link : https://colab.research.google.com/drive/1GJ_YjoEjIZyxzhUBAGzglSoo22x3zp5b#scrollTo=5plG6c7bboMf
+
+
+
+This code demonstrates how to optimize memory usage when inserting data from a CSV or Excel file into an SQLite database. The process involves changing data types and converting relevant string columns to categorical before inserting the data into the database. Additionally, an index is created for a specified column to improve query performance.
+
+Instructions
+Access Google Colab: Open your web browser and go to Google Colab.
+
+1. Upload the CSV or Excel file: Use the file upload feature in Google Colab from CSV ( present in Data Used folder )
+
+
+2. Run the Code: Copy and paste the code provided into a code cell in Google Colab and run the entire script
+select the csv file uploaded earlier.
+.The code will run and as a end result Optimize memory usage will be achived , 
+   Analyze Results: After running the code, the code analyzes the percentage improvement in memory usage and the impact of data type changes and optimization on your data.
